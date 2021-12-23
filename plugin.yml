@@ -1,0 +1,15 @@
+name: Particles
+author: Skiddy
+version: 1.0.0
+main: Particles\Particles
+api: 2.0.0
+
+commands:
+  particles:
+    description: Get Particles!
+    permission: particles.use
+    aliases: [pt]
+    
+permissions:
+  particles.use:
+    default: op
